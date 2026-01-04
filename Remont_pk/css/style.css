@@ -3,3 +3,31 @@ body{
 	padding: 0px;
 	box-sizing: border-box;
 }
+
+.header__bar{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px rgba(61, 105, 16, 0.5);
+	border-radius: 10px;
+}
+
+.header__content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo{
+	display: flex;
+	gap: 10px;
+}
+
+.logo img{
+	width: 150px;
+	height: 150px;
+}
+
+.logo__title{
+	margin-top: 55px;
+	font-size: 30px;
+}
