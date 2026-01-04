@@ -5,7 +5,7 @@ body{
 }
 
 .header__bar{
-	width: 1200px;
+	width: 1400px;
 	margin: 0 auto;
 	background-color: #fff;
 	box-shadow: 2px 2px 4px rgba(61, 105, 16, 0.5);
@@ -30,4 +30,104 @@ body{
 .logo__title{
 	margin-top: 55px;
 	font-size: 30px;
+}
+
+.menu__ul{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 55px;
+	list-style: none;
+}
+
+.menu__ul a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.menu__li a:hover{
+  color: green;
+  font-weight: bold;
+}
+
+.header__contact{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.header__number a{
+	font-size: 25px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header__modal{
+  margin-top: -10px;
+}
+
+.header__modal a{
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+}
+
+.main__content{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.main__content-left h2{
+  color: green;
+}
+
+.main__content-left h1{
+  color: #000;
+	font-weight: bold;
+	font-size: 40px;
+}
+.main__content-left h3{
+  color: #000;
+	font-size: 30px;
+}
+
+.main__content-right img{
+	width: 550px;
+	margin-top: 20px;
+} 
+
+.form{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.input__phone{
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px rgba(61, 105, 16, 0.5);
+	color:#000;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.btn{
+	width: 400px;
+	color: #000;
+	font-size: 20px;
+	height: 80px;
+	border: none;
+	border-radius: 5px;
+	background-color: green;
+	color: #fff;
+	cursor: pointer;
 }
